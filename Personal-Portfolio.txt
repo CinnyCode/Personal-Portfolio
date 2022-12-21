@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio</title>
+    <nav class="topnav" id="navbar">
+  <a class="nav-link" href="#about" id="about">About</a>
+  <a  class="nav-link" href="#work" id="work">Work</a>
+  <a class="nav-link" href="#contact"id="contact">Contact</a>
+</nav>
+    </head>
+    <body>
+      <section id="welcome-section">
+      <h1>Hey I am Cyndi</h1>
+      <h3 name="about">a web developer</h3> 
+      </section>
+      <section id="projects">
+        <div class="project-tile" name="work"><u>These are some of my projects</u></div>
+        <a id="profile-link" target="_blank"></a>
+        </section>
+        <section name="contact">
+          <h2>Let's Work together...</h2>
+          <h3>How do you take your coffee?
+          </section>
+      </body>
+      </html>
+
+html {
+  background-color: black;
+  
+}
+
+#nav-bar {
+  position: top;
+}
+
+.nav-link:hover {
+ background-color: black;
+  
+}
+body {
+  position: fixed center;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: hotpink;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+#welcome-section {
+  border-width: 1px;
+  bottom-border: ;
+  border-color: hotpink;
+  width: 100%;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+  font-variant: small-caps;
+font-family:FreeMono, monospace;  
+font-weight: 100;
+font-stretch: ultra-condensed;
+color: white;
+}
+h3 {
+  font-size: 27px;
+  text-align: center;
+  font-style: italic;
+  font-family: Courier New, monospace;
+  font-weight: 100;
+  color: hotpink;
+}
+
+#projects {
+  text-align: center;
+  font-size: 30px;
+  font-variant: small-caps;
+font-family:FreeMono, monospace;  
+font-weight: 100;
+font-stretch: ultra-condensed;
+color: white;
+border-width: 1px;
+border-style: solid;
+  border-color: hotpink;
+  padding: 1em;
+  width: 100%;
+
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+.flex-container {
+  display: flex;
+}
+
+h2 {
+ font-size: 65px;
+  text-align: center;
+  font-variant: small-caps;
+font-family:FreeMono, monospace;  
+font-weight: 100;
+font-stretch: ultra-condensed;
+color: hotpink;
+
+}
+
